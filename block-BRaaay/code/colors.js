@@ -1,30 +1,5 @@
 
-import * as React from "https//cdn.skypack.dev/react@17.0.1";
-import * as ReactDOM from "https//cdn.skypack.dev/react-dom@17.0.1";
 
-function App(){
-    return(
-        <div className = "wrapper">
-            <Card 
-                colors
-            />
-        </div>
-    )
-}
-
-function Card(props){
-    return(
-        <div className = "card">
-            <div className= "card__body">
-               
-                <h3>{props.title}</h3>
-                <div>{props.color}</div>
-                
-             
-            </div>
-        </div>
-    )
-}
 
 let colors = {
   "gray": [
