@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    width: 100px;
+}
+
+.color--box {
+    width: 100px;
+    height: 100px;
+}
+
+.color-info {
+    display: flex;
+    justify-content: space-between;
+}
